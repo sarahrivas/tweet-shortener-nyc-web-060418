@@ -52,6 +52,8 @@ def shortened_tweet_truncator(tweet)
   binding.pry
   if revised_tweet.length > 140
     revised_tweet[0..139]
+  else 
+    revised_tweet
   end  
 end  
     
